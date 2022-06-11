@@ -5,7 +5,7 @@ Essa aplicação está sendo construida para fazer diversos testes e aprofundar 
 Algumas regras serão seguindas durante o desenvolvimento: 
 
 - Deixar essa aplicação com 100% de cobertura de testes unitários, se possível utilizando TDD
-- Todas as páginas e todos os componentes devem seguir o padrão de acessibilidade da WCAG, para saber mais, [acesse o guia WCAG, clicando aqui](www.google.com)
+- Todas as páginas e todos os componentes devem seguir o padrão de acessibilidade da WCAG, para saber mais [acesse o guia WCAG](https://guia-wcag.com/)
 
 ## Angular CLI Guide
 
