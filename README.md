@@ -6,7 +6,7 @@ Algumas regras serão seguindas durante o desenvolvimento:
 
 - Todos os componentes lógicos devem estar bem documentados, de forma que qualquer pessoa entenda tudo o que está sendo feito
 - A aplicação deve sempre estar com 100% de cobertura de testes unitários, se possível utilizando TDD.
-- Todas as páginas e todos os componentes devem seguir o padrão de acessibilidade da WCAG, para saber mais [acesse o guia WCAG, clicando aqui](www.google.com).
+- Todas as páginas e todos os componentes devem seguir o padrão de acessibilidade da WCAG, para saber mais [acesse o guia WCAG](www.google.com).
 
 ## Instruções
 
