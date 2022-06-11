@@ -14,8 +14,11 @@ Esse projeto foi criado utilizando [Angular CLI](https://github.com/angular/angu
 
 ### Configuração de ambiente
 
-- Passo 1 - Baixe e instale o nodejs acessando [site oficial](https://nodejs.org/en/)
-- Passo 2 - Instale o Angular CLI através
+- Passo 1 - Baixe e instale o nodejs acessando [site oficial NodeJS](https://nodejs.org/en/).
+- Passo 2 - Baixe e instale o git bash acessando [site oficial GitBash](https://git-scm.com/downloads).
+- Passo 3 - Instale o Angular CLI, no prompt de comando ou no git bash, através do comanto `npm install -g @angular/cli`.
+- Passo 4 - No git bash, clone o projeto para alguma pasta no seu computador utilizando o comando `git clone link-do-repositório`.
+- Passo 5 - No git bash ou prompt de comando, acesse o repositório onde você clonou o projeto execuntado o comando `cd repositório-em-que clonou` e execute o comando `npm install` para instalar todas as dependencias. 
 
 ### Desenvolvimento
 
