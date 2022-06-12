@@ -1,0 +1,23 @@
+.core-header {
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: var(--m);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--primary-color);
+    height: 50px;
+}
+
+.div-icon-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+        padding-left: var(--m);
+        font-size: var(--font-g);
+    }
+}

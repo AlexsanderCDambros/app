@@ -1,6 +1,71 @@
-/* You can add global styles to this file, and also import other style files */
+// Declaração das variáveis globais
 :root {
-    --p: 8rem;
-    --m: 16rem;
-    --g: 24rem;
+    --p: 0.5rem;
+    --m: 1rem;
+    --g: 1.5rem;
+    --primary-color: #00d4d4;
+    --secondary-color: #d400d4;
+    --error-color: #d40000;
+    --succes-color: #00d46a;
+    --analogus-color: #006ad4;
+    --triadic-color: #0000d4;
+    --font-p: 1rem;
+    --font-m: 1.125rem;
+    --font-g: 1.25rem;
+    --font-gg: 1.5rem;
 }
+
+// Zerando margin e padding de todos os elementos do html
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto';
+}
+
+// Estilos padrões gerais
+main {
+    padding-left: var(--m);
+    padding-right: var(--m);
+    padding-top: var(--p);
+    padding-bottom: var(--p);
+}
+
+p {
+    font-size: var(--font-p);
+}
+
+h1 {
+    font-size: var(--font-gg);
+}
+
+h2 {
+    font-size: var(--font-g);
+}
+
+h3 {
+    font-size: var(--font-m);
+}
+
+h4 {
+    font-size: var(--font-p);
+}
+
+.primary-button {
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    background-color: var(--analogus-color);
+    color: #FFFFFF;
+    font-size: var(--font-p);
+}
+
+.primary-button:hover, .primary-button:focus {
+    border-color: var(--triadic-color);
+}
+
+.primary-button:active {
+    border-color: var(--triadic-color);
+    background-color: var(--triadic-color);
+}
+
