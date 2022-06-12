@@ -9,6 +9,8 @@
     --succes-color: #00d46a;
     --analogus-color: #006ad4;
     --triadic-color: #0000d4;
+    --gray-color: #2c3131;
+    --font-pp: 0.75rem;
     --font-p: 1rem;
     --font-m: 1.125rem;
     --font-g: 1.25rem;
@@ -23,11 +25,16 @@
 }
 
 // Estilos padrões gerais
+html, body {
+    height: 100%;
+}
+
 main {
     padding-left: var(--m);
     padding-right: var(--m);
     padding-top: var(--p);
     padding-bottom: var(--p);
+    min-height: calc(100% - 9.5rem);
 }
 
 p {
