@@ -76,3 +76,25 @@ h4 {
     background-color: var(--triadic-color);
 }
 
+.accessibility-button {
+    position: absolute;
+    top: 0;
+    left: -100rem;
+    padding: 0.5rem;
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 0.25rem;
+    background-color: var(--secondary-color);
+    color: #FFFFFF;
+    font-size: var(--font-p);
+}
+
+.accessibility-button:hover, .accessibility-button:focus {
+    border-color: var(--triadic-color);
+    left: var(--m);
+}
+
+.accessibility-button:active {
+    border-color: var(--triadic-color);
+    background-color: var(--triadic-color);
+}
