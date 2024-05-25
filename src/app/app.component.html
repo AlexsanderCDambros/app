@@ -1,2 +1,8 @@
-<p>App funcionando</p>
-<router-outlet />
+@if (headerService.showHeader) {
+    <header>
+        <app-header />
+    </header>    
+}
+<main>
+    <router-outlet />
+</main>

@@ -1,10 +1,18 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { HeaderService } from './core/services/header.service';
 
 describe('AppComponent', () => {
+  let spyHeaderService = {
+    showHeader: true
+  }
+
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [AppComponent],
+      providers: [
+        { provide: HeaderService, useValue: spyHeaderService }
+      ]
     }).compileComponents();
   });
 

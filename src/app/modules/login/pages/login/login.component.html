@@ -1,0 +1,23 @@
+<h1>Entrar</h1>
+
+<label for="user">usuário</label>
+<input id="user" type="text" placeholder="digite seu usuário" class="form-control">
+
+<label for="pass">senha</label>
+<div class="input-group">
+    <input 
+        id="pass" 
+        [attr.type]="mostrarSenha ? 'text' : 'password'" 
+        class="form-control" 
+        placeholder="digite sua senha" 
+    />
+    <button 
+        id="buttonToggleMostrarSenha" 
+        class="btn btn-outline-secondary" 
+        type="button" 
+        [attr.aria-label]="mostrarSenha ? 'esconder senha' : 'mostrar senha'" 
+        (click)="toogleMostrarSenha()"
+    >
+        <i id="iconToggleMostrarSenha" [attr.class]="mostrarSenha ? 'bi bi-eye-slash' : 'bi bi-eye'"></i>
+    </button>
+</div>
