@@ -1,27 +1,29 @@
-<div>
-    <h1>Tela de autenticação</h1>
-    
-    <hr aria-hidden="true" />
-    
-    <label for="user">usuário</label>
-    <input id="user" type="text" placeholder="digite seu usuário" class="form-control">
-    
-    <label for="pass">senha</label>
-    <div class="input-group">
-        <input 
-            id="pass" 
-            [attr.type]="mostrarSenha ? 'text' : 'password'" 
-            class="form-control" 
-            placeholder="digite sua senha" 
-        />
-        <button 
-            id="buttonToggleMostrarSenha" 
-            class="btn btn-outline-secondary" 
-            type="button" 
-            [attr.aria-label]="mostrarSenha ? 'esconder senha' : 'mostrar senha'" 
-            (click)="toogleMostrarSenha()"
-        >
-            <i id="iconToggleMostrarSenha" [attr.class]="mostrarSenha ? 'bi bi-eye-slash' : 'bi bi-eye'"></i>
-        </button>
+<div class="row justify-content-center align-items-center vh-100">
+    <div class="collumn login-content">
+        <h1>Tela de autenticação</h1>
+        
+        <hr class="my-3" aria-hidden="true" />
+        
+        <label for="user">usuário</label>
+        <input id="user" type="text" placeholder="digite seu usuário" class="form-control">
+        
+        <label for="pass" class="mt-3">senha</label>
+        <div class="input-group">
+            <input 
+                id="pass" 
+                [attr.type]="mostrarSenha ? 'text' : 'password'" 
+                class="form-control" 
+                placeholder="digite sua senha" 
+            />
+            <button 
+                id="buttonToggleMostrarSenha" 
+                class="btn btn-outline-secondary" 
+                type="button" 
+                [attr.aria-label]="mostrarSenha ? 'esconder senha' : 'mostrar senha'" 
+                (click)="toogleMostrarSenha()"
+            >
+                <i id="iconToggleMostrarSenha" [attr.class]="mostrarSenha ? 'bi bi-eye-slash' : 'bi bi-eye'"></i>
+            </button>
+        </div>
     </div>
 </div>
