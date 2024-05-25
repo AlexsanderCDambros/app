@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "jest --coverage",
+    "tdd": "jest --coverage --watch-all",
     "server": "npx json-server db.json"
   },
   "private": true,
@@ -22,6 +23,7 @@
     "@ng-bootstrap/ng-bootstrap": "^16.0.0",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
+    "bootstrap-icons": "^1.11.3",
     "json-server": "^1.0.0-alpha.23",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
