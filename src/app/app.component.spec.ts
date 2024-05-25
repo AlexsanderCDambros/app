@@ -1,6 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { HeaderService } from './core/services/header.service';
+import { HeaderService } from './shared/services/header.service';
 
 describe('AppComponent', () => {
   let spyHeaderService = {

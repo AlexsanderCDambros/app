@@ -1,7 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { LoginComponent } from './login.component';
-import { HeaderService } from '../../../../core/services/header.service';
+import { HeaderService } from '../../../../shared/services/header.service';
 
 describe('LoginComponent', () => {
   let component: LoginComponent;
